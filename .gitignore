@@ -1,0 +1,8 @@
+venv
+artifacts/data/
+artifacts/model/
+logs
+Guns_Detection.egg-info
+tensorboard
+.dvc/cache
+.dvc/tmp

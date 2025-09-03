@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Guns-Detection"
+version = "0.1"
+authors = [
+    { name = "Aman" }
+]
+dependencies = [
+    "pandas",
+    "numpy",
+    "opencv-python-headless",
+    "dvc"
+]
+
+[project.optional-dependencies]
+dev = [
+    "kagglehub",
+    "torch",
+    "torchvision",
+    "tensorboard"
+]
+# deployment = [
+#     ""
+# ]
+
+[tool.setuptools.packages.find]
+where = ["."]
