@@ -6,3 +6,4 @@ Guns_Detection.egg-info
 tensorboard
 .dvc/cache
 .dvc/tmp
+tensorboard_logs
