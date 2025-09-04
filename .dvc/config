@@ -1,2 +1,5 @@
 [core]
     no_scm = True
+    remote = guns-detection-remote
+['remote "guns-detection-remote"']
+    url = gs://guns-detection-dvc-repo/
